@@ -1,7 +1,14 @@
-echo "# PROYECTO1" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
+echo "# PROYECTO1" >> README.md PASAMOS DE ESTA
+git init REALIZADO, PASAMOS
+git add README.md (cambiamosy pegamos en terminal) Da igual warnings.
+git add .
+
+AHORA AÑADIMOS TODO "AQUI LO QUE QUEREOS QUE VEAN", integramos en terminal
+git commit -m "first commit" 
+
+SIEMPRE LLAMAR A LA RAMA main, integramos en terminal
 git branch -M main
+
+SUBIMOS SIGUIENTE
 git remote add origin https://github.com/COSENDRA/PROYECTO1.git
 git push -u origin main
